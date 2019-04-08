@@ -52,11 +52,11 @@
 **Team**と**Scrum Team（スクラムチーム）**を明確に異なる集団であると定義している。
 
 ## Product Owner
-**Product Owner**は、**Scrum Team**の**「ROI（投資対効果）」**を最大化する責任がある。
+**Product Owner**は、**Scrum Team**の**「ROI（投資対効果）」**を最大化する責任がある。	
 
 基本、**Project**内の制約に基づいて、複雑性をコントルールするなどし、**ROI**を最大化する戦略立案と戦略に基づく**Team**支援を行う。Invester（投資家）とは異なる役割。
 
-**ROI**最大化の戦略に基づき、**Product Backlog（要件や技術的な負債であるUndoneなど）**の優先順位を決める。
+**ROI**最大化の戦略に基づき、**Product Backlog（要件や技術的な負債であるUndoneなど）**の優先順位を決める。**Product Owner**は、すべての要件を**Product Backlog**で管理する。**Product Backlog**にない要件を**Team**に依頼することはできない。**Stakeholder**からの依頼が発生した場合も、**Product Owner**は**Product Backlog**を通じて、**Team**へ依頼する。
 
 **Product Owner**は Product Manager（プロダクトマネージャー）が担当することが多いが、上記の責任と役割を果たすことができれば職種に定めはない。
 
@@ -66,6 +66,8 @@
 **Team**は、**Scrum Team** の「生産性」を最大化する責任がある。**Development Team（開発チーム）**と表現される事が多い。
 
 **Team**は、サービスや**Product**を開発する「生産性」を向上し続けなければならない。単にサービスや**Product**を開発するだけの役割ではない。
+
+**Team**は、開発すべき要件を必ず**Product Backlog**から取得する。**Product Backlog**にない要件を開発してはいけない。**Stakeholder**からの依頼が発生した場合も、**Team**は**Product Owner**にエスカレーションし、**Product Backlog**を通じて、開発の要件と優先順位を理解する。
  
 **Team**には、上記の責任と役割を果たすために必要なすべての職種が含まれるが、エンジニアやデザイナーが含まれることが多い。
 
@@ -92,6 +94,8 @@
 * **Product Backlog Refinement（プロダクトバックログリファインメント）**
 * **Sprint Review（スプリントレビュー）**
 * **Sprint Retrospective（スプリントレトロスペクティブ）**
+
+上記以外に、PO会議などで実施する、事業部内の重要な意思決定やチーム横断の優先順位調整もあるが、これらはオプションである。
 
 ## Sprint Planning
 **Scrum Team**が、**Sprint（短期間）**の計画または再計画を行う**Ceremony**。
@@ -170,16 +174,16 @@
 
 * **Product Backlog（プロダクトバックログ）**
 * **Sprint Backlog（スプリントバックログ）**
-* **Impediment List（障害リスト）**
+* **Impediment List（妨害リスト）**
 * **Done（Definition of Done：Doneの定義）**
-* **Potentially Shippable Product Increment（出荷可能プロダクト）**
+* **Potentially Shippable Product Increment（出荷可能なプロダクト単位）**
 
 上記以外に、Market（マーケット）を定義したり、Marketの課題を管理する作成物として、Lean CanvasやIssue Map 等があるが、これらはオプションである。
 
 ## Product Backlog
 5つの目的がある**Artefact**。
 
-* **Scrum Team**が、取り扱うProduct Backlog Item（要件）の一覧**
+* **Scrum Team**が、取り扱う**Product Backlog Item（要件）**の一覧
 	* **Scrum Team**内で、**Product Backlog Item**を軸に、不明点を確認や特定する
 * **Product Owner**が、**ROI**を最大化する為の「戦略」を明らかにする
 	* その為に、**Product Backlog Item**の優先順位を明らかにする
@@ -188,6 +192,8 @@
 * **Team**が、**Product**で実現する「期待」、実現できた「実績」を管理する
 	* その為に、**Velocity**を把握する
 * Scrum Team が、Team のVelocityに基づいて、中長期の計画の見通しを確認し、再計画した内容を管理する
+
+不具合やバグについても必ず**Product Backlog**で一元管理し、優先順位に基づいて開発する。
 
 ### Product Backlogの基本ルール
 * **Product Backlog Item**の見積る対象は、要件の「複雑度」である
@@ -202,6 +208,7 @@
 
 * **Team**が、**Sprint**で実行する戦略を明らかにする
 * **Team**が、**Sprint**で実行するタスク（作業）を明らかにする
+	* 実行するタスクは、Scrum Teamが合意した**Product Backlog Item**のみ
 * **Team**が、**Sprint**におけるタスクのステータスを管理する
 	* タスクの状態「実行前、実行中、完了」を明らかにする
 * **Sprint**において、**Team**が計画通り実行できているのか、協力しているのか、問題を放置していないのかを明らかにする
@@ -215,6 +222,7 @@
 3つの目的がある**Artefact**。
 
 * **Project**における、**Impediment（活動における妨害や障害、課題など）**を明らかにする
+	* 本ガイドラインから逸脱したルールで運営されている**Scrum**なども**Impediment**として取り扱わなければならない
 * **Scrum Master**が、**Scrum Team**の目的実現の確率を最大化する為の「戦略」を明らかにする
 	* その為に、「取り扱う**Impediment**の優先順位」を明らかにする
 * **Scrum Team**が、**Project**の改善実績、改善中、未着手課題を明らかにする
@@ -233,7 +241,6 @@
 
 * **Done** とは、**Product**をリリースする為に、すべき事が出来ている**Product**の状態のこと
 	* **Done**は、開発手順が「Definition of Done」を最初に構築・実現し、それから要件を開発する
-
 * **Undone**とは、**Product**をリリースする為に、すべき事が出来ていない **Product**の状態のこと
 	* **Undone**は、開発手順が「要件」を最初に構築・実現し、それから Definition of Done を実現する
  
