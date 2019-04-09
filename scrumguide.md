@@ -54,7 +54,7 @@
 ## Product Owner
 **Product Owner**は、**Scrum Team**の「**ROI**（投資対効果）」を最大化する責任がある。	
 
-基本、**Project**内の制約に基づいて、複雑性をコントルールするなどし、**ROI**を最大化する戦略立案と戦略に基づく**Team**支援を行う。Invester（投資家）とは異なる役割。
+基本、**Project**内の制約に基づいて、複雑性をコントロールするなどし、**ROI**を最大化する戦略立案と戦略に基づく**Team**支援を行う。Invester（投資家）とは異なる役割。
 
 **ROI**最大化の戦略に基づき、**Product Backlog**（要件や技術的な負債であるUndoneなど）の優先順位を決める。**Product Owner**は、すべての要件を**Product Backlog**で管理する。**Product Backlog**にない要件を**Team**に依頼することはできない。**Stakeholder**からの依頼が発生した場合も、**Product Owner**は**Product Backlog**を通じて、**Team**へ依頼する。
 
