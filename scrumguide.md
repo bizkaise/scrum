@@ -158,7 +158,7 @@
 	* 遅くとも1時間以内に終了する（内容より時間を優先する）
 
 ## Sprint Retrospective
-**Team**が、生産性を向上する目的のために、次の**Sprint**で、「実施する具体的な改善アクションを Commitment（コミットメント）」する**Ceremony**。
+**Team**が、生産性を向上する目的のために、次の**Sprint**で「実施する具体的な改善アクションを Commitment（コミットメント）」する**Ceremony**。
 
 ### Sprint Retrospectiveの基本ルール
 
