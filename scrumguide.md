@@ -276,20 +276,20 @@ Done/Undoneの区別は、作業の順番で決まる。
 # 5.Scrum Checklist
 
 ビズリーチ社におけるScrumの導入・活用状況を可視化するためのチェックリスト。
-主に**Scrum Master**が、**Scrum Team**や自分自身の成長イメージを掴むために活用することを想定。
 
-項目の難易度に応じて4段階（+Option）にレベル分けをしているので、レベルNの項目に全てチェックがついたらレベルN+1に進む、といった活用方法が望ましい。
+項目の難易度に応じて5段階（+Option）にレベル分けをしているので、レベルNの項目に全てチェックがついたらレベルN+1に進む、といった活用方法が望ましい。
 
 * レベル1:Scrumを最低限導入している
-* レベル2:Scrumを効率的に活用している
-* レベル3:Scrumを中長期的な目標達成のために活用している
-* レベル4:Scrumをビジネスと組織の成長のために活用している
+* レベル2:ScrumのArtefactを効率的に運用している
+* レベル3:ScrumのCeremonyを効率的に運用している
+* レベル4:Scrumを中長期的な目標達成のために活用している
+* レベル5:Scrumをビジネスと組織のさらなる成長のために活用している
 * Option:Scrumに関する最新のプラクティスを活用している
 
 ## 利用方法
 
-1. [Scrum Checklist](https://docs.google.com/spreadsheets/d/1q0dAqOu-WHVAa2XRDu7dLLQy3pjvyVGuNAb-vb4F9nQ/edit#gid=1603532095)をコピーする
-1. 項目にチェックを入れる
+1. [Scrum ChecklistーMaster](https://docs.google.com/spreadsheets/d/1q0dAqOu-WHVAa2XRDu7dLLQy3pjvyVGuNAb-vb4F9nQ/edit#gid=1603532095)をコピーする
+1. チェックする日付の列を作り、その時点でできている項目にチェックを入れる
 1. チェックがつかない項目を参考に、**Impediment List**の作成、**Sprint Retrospective**のテーマ設定、**Scrum Master**の目標設定などに活用する
-1. 再度チェックする時期を決める
+1. 次回チェックする日付を決める
 1. 2に戻る
